@@ -1,0 +1,8 @@
+name: incoming
+on: push
+permissions: {}
+jobs:
+  proposed:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "Bundles proposed; the feed's workflow takes them."
