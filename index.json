@@ -1,6 +1,20 @@
 {
   "feed": 1,
-  "serial": 1,
-  "expires": 1802939897,
-  "plugins": {}
+  "serial": 2,
+  "expires": 1802941356,
+  "plugins": {
+    "awg": [
+      {
+        "version": "3.1.20261113.2-r2",
+        "builds": [
+          {
+            "arch": "aarch64_generic",
+            "kernel": "6.12.112~67e205f26d0458c4d12f1fd315216398-r1",
+            "blob": "sha256:e89cc2570157afe5ba6e83e463aec61f9675529abff70a52fd014632b7bd5db9",
+            "size": 1835520
+          }
+        ]
+      }
+    ]
+  }
 }
