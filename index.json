@@ -1,9 +1,20 @@
 {
   "feed": 1,
-  "serial": 4,
-  "expires": 1803044669,
+  "serial": 5,
+  "expires": 1803082531,
   "plugins": {
     "awg": [
+      {
+        "version": "3.1.20261113.2-r3",
+        "builds": [
+          {
+            "arch": "aarch64_generic",
+            "kernel": "6.12.112~67e205f26d0458c4d12f1fd315216398-r1",
+            "blob": "sha256:047123e116d8a421f93bb41ca1254a2585dcedc2f51db95e7dad1d4d7f1ab314",
+            "size": 1835520
+          }
+        ]
+      },
       {
         "version": "3.1.20261113.2-r2",
         "builds": [
@@ -17,6 +28,17 @@
       }
     ],
     "demo": [
+      {
+        "version": "0.1.1",
+        "builds": [
+          {
+            "arch": "aarch64_generic",
+            "kernel": "6.12.112~67e205f26d0458c4d12f1fd315216398-r1",
+            "blob": "sha256:b2dd22a76491b7a6a3b8ff080ccfc6ceadf4eac8bfd21fa5a2e1db587c3b0f57",
+            "size": 728576
+          }
+        ]
+      },
       {
         "version": "0.1.0",
         "builds": [
