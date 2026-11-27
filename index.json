@@ -1,7 +1,7 @@
 {
   "feed": 1,
-  "serial": 10,
-  "expires": 1803484221,
+  "serial": 11,
+  "expires": 1803569959,
   "plugins": {
     "awg": [
       {
